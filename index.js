@@ -10,9 +10,11 @@ module.exports = {
       postcssOptions: {
         syntax: require('postcss-scss')
       },
-      // generateScopedName: function(className, modulePath) {
-      //   return '_sass_addon' + generateScopedName(className, modulePath);
-      // }
+      generateScopedName(className, modulePath) {
+        let d = `_sass_addon-${className}-${modulePath}`;
+        console.log('generateScopedName', d);
+        return d;
+      }
     }
   }
 };
