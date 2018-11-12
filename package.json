@@ -21,11 +21,9 @@
     "test:all": "ember try:each"
   },
   "dependencies": {
-    "broccoli-postcss": "^4.0.1",
     "ember-cli-babel": "^6.16.0",
     "ember-cli-htmlbars": "^3.0.0",
-    "ember-css-modules": "^1.0.3",
-    "postcss": "^7.0.5"
+    "ember-css-modules": "^1.0.3"
   },
   "devDependencies": {
     "@ember/optional-features": "^0.6.3",
