@@ -1,0 +1,7 @@
+.ui-pill {
+  border: 2px solid brown;
+  border-radius: 50%;
+  min-width: 80px;
+  padding: 8px;
+  text-align: center;
+}

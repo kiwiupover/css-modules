@@ -1,0 +1,1 @@
+export { default } from 'css-modules/components/ui-pill/component';
