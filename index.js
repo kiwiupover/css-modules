@@ -6,7 +6,7 @@ module.exports = {
   options: {
     cssModules: {
       // Emit a combined SCSS file for ember-cli-sass to compile
-      intermediateOutputPath: 'addon/styles/addon.scss',
+      intermediateOutputPath: 'addon.scss',
 
       // Use .scss as the extension for CSS modules instead of the default .css
       extension: 'scss',
